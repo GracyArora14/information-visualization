@@ -1,0 +1,138 @@
+/* Background styles */
+.body {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  background-color: #fdfdfd;
+  background-image: radial-gradient(
+      at 37% 43%,
+      hsl(174.34, 99%, 41%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(169.09, 85%, 75%) 0, transparent 75%);
+}
+
+/* Glassmorphism card effect */
+.card {
+  backdrop-filter: blur(11px) saturate(126%);
+  -webkit-backdrop-filter: blur(11px) saturate(56%);
+  background-color: rgba(255, 255, 255, 0.41);
+  border-radius: 42px;
+   padding: 50px 35px;
+  margin: 150px 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(209, 213, 219, 0.5);
+}
+.title{
+    font-size: 40px;
+}
+.inputGroup {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  margin: 20px 0px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+input{
+    background: transparent;
+    opacity: 0.8;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #2d9fd9;
+     color: #a0d18c;
+     width: 150px;
+     height: 45px;
+     margin-left: 30px;
+     padding-left: 10px;
+    }
+    
+input:focus {
+     outline: none;
+     border: 1px solid #a0d18c;
+     color: #2d9fd9;
+}
+
+
+
+/* CSS */
+.submitForm {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.33) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.5), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+opacity: 0.5;
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+
+span{
+    opacity: 1;
+}
+
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #54ffd4 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #35eaea 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(29, 224, 241, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #08ebd8 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #21edd2 0 3px 7px inset;
+  transform: translateY(2px);
+}

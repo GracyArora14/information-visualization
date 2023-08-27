@@ -1,0 +1,122 @@
+.hero-div {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  height: min-content; /* 696px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 70px 50px;
+  padding-top: 100px;
+  /* background-color: #9d8189; */
+  overflow: hidden;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+
+ 
+}
+
+.left-side-gradient-div{
+   position: absolute;
+   top: 250px;
+   left: -10px;
+
+background: #E6FFA6;
+background: linear-gradient(225deg, #E6FFA6, #C8FBFF);
+   height: 80vh;
+   width: 180px;
+   border-radius: 0px 100% 100% 0px;
+   filter: blur(70px);
+}
+
+.right-side-gradient-div{
+  position: absolute;
+  top: 150px;
+  right: -30px;
+
+background: #E6FFA6;
+background: linear-gradient(225deg, #4c9ffe9e, #ffc8f2bc);
+  height: 50vh;
+  width: 250px;
+  border-radius: 0px 100% 100% 0px;
+  filter: blur(100px);
+}
+
+.hero-title {
+  flex-shrink: 0;
+
+  height: auto; /* 172px */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+  overflow: visible;
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0px;
+}
+
+.hero-text {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0px;
+}
+.hero-desc {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: 30px;
+  padding: 10px 60px;
+  text-align: center;
+}
+
+.hero-button {
+  color: #063b59;
+  background-color: #b7e2ff;
+  border: 0px;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  
+  padding: 15px 18px;
+  border-radius: 30px;
+ 
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+@media (width<=550px) {
+  .hero-title {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  .hero-text {
+    font-size: 18px;
+  }
+  .hero-desc {
+    font-size: 17px;
+    padding: 10px 1px;
+  }
+  .hero-button {
+   
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+   
+    padding: 15px 18px;
+  }
+ 
+}

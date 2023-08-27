@@ -1,0 +1,137 @@
+:root {
+  font-family: "Spectral", serif, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0px;
+  color-scheme: light dark;
+  color: #063b59;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  position: fixed;
+  z-index: 60;
+  width: 100vw;
+  background-color: #ffffff;
+  /* width: 100%; */
+  box-shadow: 0px 0px 20px 0 rgba(92, 91, 91, 0.2);
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  /* margin: 0; */
+  /* display: flex; */
+  /* place-items: center; */
+  /* min-width: 320px; */
+  /* min-height: 100vh; */
+  overflow-x: hidden;
+}
+
+/* hero cards section  */
+
+.test {
+  height: 100vh;
+}
+
+.rr {
+  border: 2px solid red;
+}
+
+.bb {
+  border: 2px solid blue;
+}
+.gg {
+  border: 2px solid green;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+  padding: 0px 10px;
+  margin-bottom: 50px;
+}
+
+.hero-cards-div {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  width: 340px;
+  cursor: pointer;
+  padding: 25px 15px;
+  border-radius: 60px;
+  color: rgb(0, 0, 0,);
+}
+
+.hero-card-outter-div-1-bg {
+  /* background: #82ffff; */
+  /* opacity: 0.7; */
+  background: radial-gradient(at left , #82ffff91, #ebb9ffc4);
+}
+
+.hero-card-outter-div-2-bg {
+  /* background: #ff99e4; */
+  background: radial-gradient(at bottom, #0acceaca, #5ed6ee31);
+}
+
+.hero-card-outter-div-3-bg {
+  /* background: #fff19965; */
+  background: radial-gradient(at top, #fff19976, #ffaad2c1);
+}
+
+.hero-card-outter-div-4-bg {
+  /* background: #fff199; */
+  background: radial-gradient(at center, #ff999982, #e6ffaa7d);
+}
+
+.hero-card-img-1 {
+  width: 280px;
+  /* opacity: 1; */
+  height: 180px;
+}
+
+.hero-card-img-2 {
+  width: 180px;
+  /* opacity: 1; */
+  height: 180px;
+}
+
+.hero-card-title-1 {
+  font-size: 26px;
+  
+  font-weight: bold;
+}
+
+.hero-card-desc-1 {
+  font-size: 18px;
+}
