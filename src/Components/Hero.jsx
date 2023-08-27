@@ -6,7 +6,7 @@ function Hero() {
   return (
     <>
       <div className="">
-        <div className=" left-side-gradient-div"> </div>
+        {/* <div className=" left-side-gradient-div"> </div> */}
         <div className=" right-side-gradient-div"> </div>
         <div className="hero-div">
           <h1 className="hero-title">
