@@ -5,8 +5,8 @@
   font-weight: 400;
   padding: 0px;
   color-scheme: light dark;
-  color: #063b59;
-  background-color: #ffffff;
+  color: #e6ecf0;
+  background-color: #0b0b0b;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,8 +28,9 @@ nav {
   position: fixed;
   z-index: 60;
   width: 100vw;
-  background-color: #ffffff;
+  background-color: #0e0e0e;
   /* width: 100%; */
+  
   box-shadow: 0px 0px 20px 0 rgba(92, 91, 91, 0.2);
 }
 
