@@ -12,7 +12,7 @@ const Cards = () => {
       window.location.href = "https://drive.google.com/file/d/1uxO1DK7AvwJMWlcJD4mRAscDh-PLfoU9/view?usp=drivesdk";
     };
     const handleClick3 = () => {
-      window.location.href = "https://drive.google.com/file/d/1unE_K2I1t4DP6-AR7tIDTC3usNxtqSSu/view?usp=drivesdk";
+      window.location.href = "https://analytics.zoho.in/open-view/297510000000008027";
     };
   return (
     <>
